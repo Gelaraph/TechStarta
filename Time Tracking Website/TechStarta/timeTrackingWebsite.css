@@ -1,0 +1,167 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+h1 {
+    font-family: monospace;
+    color: grey;
+    font-weight: bold;
+}
+
+.websiteName {
+    float: left;
+    font-size: 19px;
+}
+
+p {
+    color: rgb(96, 233, 108);;
+    font-weight: bold;
+    padding: 0px;
+    font-size: 23px;
+}
+
+#logo {
+    float: left;
+    margin: 0;
+    height: 120px;
+    width: 120px;
+}
+
+#home {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 95px;
+    background-color: rgb(238, 230, 230);
+    border-bottom: 3px solid rgb(212, 205, 205);
+    padding: 0;
+}
+
+.navLink {
+    margin: 15px;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    float: right;
+        font-size: 30px;
+        margin-right: 19px;
+}
+.navLink:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+#side-info{
+    text-align: center;
+}
+
+#wrapper {
+    padding: 5px;
+    border-radius: 25px;
+    height: 600px; 
+    width: 600px;
+    align-items: center;
+    margin: auto;
+    margin-top: 195px;
+    background-color: rgb(238, 230, 230) ;    
+    
+}
+#side-info {
+    float: left;
+}
+
+#image {
+    width: 400px;
+    height: 500px;
+    margin-left: 15px;
+}
+
+#intro{
+   
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#welcome {
+    text-align: center;
+   
+}
+#form {
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#email{
+    margin: 10px;
+}
+
+.tag1 {
+    padding-right:48px;
+    margin-right: 5px;
+}
+
+.tag2 {
+    padding-right:28px;
+    margin-right: 5px;
+}
+
+input {
+    border: 2px solid rgb(92, 233, 92);
+    padding: 5px;
+    border-radius: 5px;
+    height: 33px;
+    width: 300px;
+}
+
+#password {
+    margin-left: 300px;
+}
+
+button {
+   font-size: 16px;
+   width: 190px;  
+height: 40px;  
+padding: 10px;
+background-color:  rgb(96, 233, 108);
+margin-top: 40px;
+}
+button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+#btn {
+    text-align: center;
+    font-weight: bold;
+}
+
+#register {
+    text-align: center;
+}
+
+#footer {
+    color: rgb(96, 233, 108);
+    text-align: end;
+    font-size: 16px;
+    margin-top: 40px;   
+}
+
+#link, #pW, #reg {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+#link:hover, #pW:hover, #reg:hover {
+    color: rgb(96, 233, 108);
+    text-decoration: underline;
+}
+
+#link {
+    background-color: ivory;
+    font-size: 16px;
+}
